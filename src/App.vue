@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <HeaderPage/>
+  <ColumnPage />
+  <GridPractice />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import HeaderPage from './components/HeaderPage.vue';
+//import HeaderPage from './components/header.vue'
+import ColumnPage from './components/ColumnPage.vue'
+import GridPractice from './components/GridPractice.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderPage,
+    ColumnPage,
+    GridPractice
   }
 }
 </script>
